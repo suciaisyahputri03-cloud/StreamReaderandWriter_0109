@@ -7,5 +7,9 @@ int main()
 {
     
     //deklarasi variabel baris dan NamaFile
-    string baris, Namafile;
+    string baris, NamaFile;
+
+    //membuat ibput untuk menangkap nama file
+    cout << "Masukkan nama file : ";
+    cin >> NamaFile;
 }
