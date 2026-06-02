@@ -53,5 +53,8 @@ int main()
         //menutup file jika telah selesai di loop
         infile.close();
     }
+    //kondisi jika file tidaka ada
+    else cout << "Unable to open file";
+    return 0;
 
 }
