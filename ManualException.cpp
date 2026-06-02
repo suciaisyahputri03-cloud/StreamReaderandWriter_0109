@@ -10,4 +10,11 @@ int main()
         //thow 0.5 //melempaekan sebuah integer maka
         cout << "pernyataan tidak akan ditampilakn" << endl;
     }
+
+    //kondisi jika throw yang bertipe data integer
+    catch (int a)
+    {
+        cout << "Pengecualian akan di eksekusi" << endl;
+    }
+
 }
